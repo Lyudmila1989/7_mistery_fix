@@ -4,7 +4,7 @@ The program "Solver of quadratic equations" is designed to find the real roots o
 
 # Как использовать
 
-The module ```bash quadratic_equation``` contains the function ```bash get_roots(a, b, c)```, which takes real numerical coefficients of the quadratic equation and returns a tuple containing its two real roots ```bash route1, route2```. If there are no real roots, the function will return ```bash None, None```. If the equation has one real root, the function returns a sequence: ```bash route1, None```.
+The module ```quadratic_equation``` contains the function ```get_roots(a, b, c)```, which takes real numerical coefficients of the quadratic equation and returns a tuple containing its two real roots ```route1, route2```. If there are no real roots, the function will return ```None, None```. If the equation has one real root, the function returns a sequence: ```route1, None```.
 
 Example:
 
