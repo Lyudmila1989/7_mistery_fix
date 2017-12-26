@@ -1,10 +1,19 @@
 # Решатель квадратных уравнений
 
-[TODO. Здесь будет описание проекта]
+The program "Solver of quadratic equations" is designed to find the real roots of a quadratic equation by its coefficients.
 
 # Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+The module ```bash quadratic_equation``` contains the function ```bash get_roots(a, b, c)```, which takes real numerical coefficients of the quadratic equation and returns a tuple containing its two real roots ```bash route1, route2```. If there are no real roots, the function will return ```bash None, None```. If the equation has one real root, the function returns a sequence: ```bash route1, None```.
+
+Example:
+
+'''bash
+from quadratic_equation import get_roots
+
+a, b, c = input()
+print(get_roots(a, b, c)) 
+```
 
 # Как запустить
 
