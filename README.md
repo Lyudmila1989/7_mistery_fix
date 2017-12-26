@@ -8,7 +8,7 @@ The module ```quadratic_equation``` contains the function ```get_roots(a, b, c)`
 
 Example:
 
-'''bash
+```bash
 from quadratic_equation import get_roots
 
 a, b, c = input()
