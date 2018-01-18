@@ -4,7 +4,7 @@ The program "Solver of quadratic equations" is designed to find the real roots o
 
 # How to Use
 
-The module ```python quadratic_equation``` contains the function ```python get_roots(a, b, c)```, which takes real numerical coefficients of the quadratic equation and returns a tuple containing its two real roots ```python (root1, root2)```. If there are no real roots, the function will return ```python (None, None)```. If the equation has one real root, the function returns a consistency: ```python (root1, None)```.
+The module ```quadratic_equation``` contains the function ```get_roots(a, b, c)```, which takes real numerical coefficients of the quadratic equation and returns a tuple containing its two real roots ```(root1, root2)```. If there are no real roots, the function will return ```(None, None)```. If the equation has one real root, the function returns a consistency: ```(root1, None)```.
 
 ## Code Example:
 
