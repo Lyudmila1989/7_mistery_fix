@@ -1,7 +1,7 @@
 from math import sqrt
 
 
-def get_roots_s(a, b, c):
+def get_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
         return None, None
