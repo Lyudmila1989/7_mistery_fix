@@ -6,9 +6,9 @@ def get_roots(a, b, c):
     if discriminant < 0:
         return None, None
     else:
-        root1 = (-b - sqrt(discriminant))
+        root1 = (-b - sqrt(discriminant)) / (2 * a)
         if discriminant == 0:
             return root1, None
         else:
             root2 = (-b + sqrt(discriminant)) / (2 * a)
-            return root1, root1
+            return root1, root2
